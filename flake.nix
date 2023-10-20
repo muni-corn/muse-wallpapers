@@ -3,7 +3,6 @@
 
   outputs = {
     self,
-    nixpkgs,
   }: {
     generated = builtins.path {
       name = "muse-wallpapers-generated";
